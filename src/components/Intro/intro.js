@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
 import bg from "../../assets/Image D.jpg";
-import btnImg from '../../assets/Hireme.jpg';
+import btnImg from "../../assets/Hireme.jpg";
 import { Link } from "react-scroll";
 
 const Intro = () => {
@@ -11,17 +11,18 @@ const Intro = () => {
         <span className="hello">Hello,</span>
         <span className="introtext">
           I'm
-          <span className="introname"> David <br />
+          <span className="introname">
+            {" "}
+            David <br />
           </span>
           FRONTEND DEVELOPER
         </span>
         <p className="intropara">
-          I am a skilled web developer mostly specialized in React , HTML and
-          CSS with experience in solving mobile applications
-        </p>
+        I am a developer like the magician behind the curtains, making the web pages come to life also <br /> responsible for creating the visual elements that users interact 
+        with in a web application or website</p>
         <Link>
           <button className="btn">
-            <img src={btnImg} alt="Hire" className='btnImg' />
+            <img src={btnImg} alt="Hire" className="btnImg" />
             Hire Me
           </button>
         </Link>
