@@ -6,11 +6,10 @@ import portfolio3 from "../../asset/portfolio-3.png";
 import portfolio4 from "../../asset/portfolio-4.png";
 import portfolio5 from "../../asset/portfolio-5.png";
 import portfolio6 from "../../asset/portfolio-6.png";
-import Container from "react-bootstrap/Container";
+
 
 const Works = () => {
   return (
-    <Container>
       <section id="works">
         <h2 className="worksTitle"> My Portfolio</h2>
         <span className="worksDesc">
@@ -29,7 +28,7 @@ const Works = () => {
           <b>See More</b>
         </button>
       </section>
-    </Container>
+    
   );
 };
 

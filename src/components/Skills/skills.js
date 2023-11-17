@@ -3,11 +3,9 @@ import "./skills.css";
 import HCJR from "../../assets/HCJR.png.png";
 import Git from "../../assets/Git-png.png";
 import API from "../../assets/API.png";
-import Container from "react-bootstrap/Container";
 
 const Skills = () => {
   return (
-    <Container>
       <section id="skills">
         <span className="skillTitle">What I do</span>
         <span className="skillDesc">
@@ -53,7 +51,6 @@ const Skills = () => {
           </div>
         </div>
       </section>
-    </Container>
   );
 };
 
