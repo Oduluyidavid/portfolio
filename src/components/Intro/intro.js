@@ -21,6 +21,7 @@ const Intro = () => {
           pages come to life also <br /> responsible for creating the visual
           elements that users interact with in a web application or website
         </p>
+
         <Link>
           <button className="btn">
             <img src={btnImg} alt="Hire" className="btnImg" />
