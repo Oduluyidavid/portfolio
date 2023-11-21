@@ -21,7 +21,7 @@ const Skills = () => {
             <div className="skillBarText">
               <h2>Html/Css/JavaScript/React</h2>
               <p>
-                The main purpose of this language used, is to solve issue
+                The main purpose of this language used,is to solve issue
                 affecting websites and mobile applications
               </p>
             </div>
@@ -31,10 +31,8 @@ const Skills = () => {
             <div className="skillBarText">
               <h2>Version control/ Repositories</h2>
               <p>
-                Git is designed to track changes in source code during software
-                development. It allows developers to work on the same project
-                simultaneously, keeping track of modifications, additions, and
-                deletions made to the codebase over time.
+                Git is designed to track changes in source code during 
+                software development.
               </p>
             </div>
           </div>

@@ -13,6 +13,7 @@
 .contactPageTitle {
   font-size: 3rem;
   margin-bottom: 1rem;
+
 }
 
 .clientDesc {
@@ -88,11 +89,26 @@
   margin: 0 0.75rem;
 }
 
-@media screen and (max-width: 720px) {
-    .contactPageTitle {
-        font-size:3rem;
-        display: none;
+@media screen and (max-width: 602px) {
+  .contactPageTitle {
+    font-size: 3rem;
+    padding: 3rem 1rem;
+    justify-content: center;
+    align-items: center;
+  }
 
-    }
+  .clientImgs {
+    object-fit: cover;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .clientImg{
+    margin: auto;
+    padding: 2rem 0.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

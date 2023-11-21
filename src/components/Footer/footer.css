@@ -6,5 +6,6 @@
     align-items: center;
     justify-content: center;
     font-weight: 300;
-    font-size: small;
+    font-size: medium;
+    padding: 2rem 0.5rem;
 }

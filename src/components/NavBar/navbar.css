@@ -74,6 +74,7 @@
   min-width: 15rem;
   background: rgb(40, 40, 40);
   border-radius: 1rem;
+  display: none;
 }
 
 .listItem {
@@ -93,6 +94,10 @@
   }
 
   .desktopMenuBtn {
+    display: none;
+  }
+
+  .navbar {
     display: none;
   }
 }
