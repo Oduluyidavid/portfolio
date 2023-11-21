@@ -2,7 +2,6 @@
   background: rgb(30, 30, 30);
   height: 5rem;
   width: 100vw;
-  max-width: 75rem;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -42,6 +41,10 @@
   cursor: pointer;
 }
 
+.desktopMenuBtn:hover {
+  background: yellow;
+  color: black;
+}
 .desktopMenuImg {
   object-fit: cover;
   height: 1rem;
@@ -74,7 +77,6 @@
   min-width: 15rem;
   background: rgb(40, 40, 40);
   border-radius: 1rem;
-  display: none;
 }
 
 .listItem {
@@ -84,7 +86,7 @@
   background: rgb(30, 30, 30);
 }
 
-@media screen and(max-width:720px) {
+@media screen and (max-width: 720px) {
   .mobMenu {
     display: flex;
   }
@@ -94,10 +96,6 @@
   }
 
   .desktopMenuBtn {
-    display: none;
-  }
-
-  .navbar {
     display: none;
   }
 }

@@ -17,20 +17,21 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_n54m0sz',
-        "YOUR_TEMPLATE_ID",
+        "service_408pcgm",
+        "template_lgobctc",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "IaX_K9eE27hll44TG"
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert("Email Sent");
         },
         (error) => {
           console.log(error.text);
         }
       );
-   };
+  };
   return (
     <section id="contactPage">
       <div id="clients">
@@ -57,16 +58,31 @@ const Contact = () => {
       <span className="contactDesc">
         <b>please fill out the form below to discus any work opportunities</b>
       </span>
-      <form className="contactForm" ref={form}onSubmit={sendEmail}>
-        <input type="text" className="name" placeholder="Your Name" />
-        <input type="email" className="email" placeholder="Your Email" />
+      <form className="contactForm" ref={form} onSubmit={sendEmail}>
+        <input
+          type="text"
+          className="name"
+          placeholder="Your Name"
+          name="your_name"
+        />
+        <input
+          type="email"
+          className="email"
+          placeholder="Your Email"
+          name="your_email"
+        />
         <textarea
           className="msg"
           name="message"
           rows="5"
           placeholder="Your Message"
         ></textarea>
-        <button type="sumbit" value="send" className="submitBtn">
+        <button
+          type="sumbit"
+          value="send"
+          className="submitBtn"
+          onClick={(e) => sendEmail(e)}
+        >
           <b>Submit</b>
         </button>
         <div className="links">
