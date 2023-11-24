@@ -91,20 +91,19 @@
 
 @media screen and (max-width:720px) {
   .contactPageTitle {
-    font-size:3rem;
-    margin: right auto;;
-    padding:1rem;
+    font-size:5vw;
+    margin-right:auto;
+    padding:2rem 0.5rem;
     justify-content: center;
     align-items: center;
-    
   }
+  
+
   .clientDesc{
-    font-size:medium;
+    font-size:5vw;
     font-weight: 200;
     align-items: center;
-    padding: 2rem;
-    margin-right: 3rem;
-
+    justify-content: center;
   }
 
   .clientImgs {
@@ -135,6 +134,7 @@
   .contactDesc {
     font-size: smaller;
     margin-right: auto;
+    object-fit: cover;
     align-items: center;
     justify-content: center;
     padding:2rem;
