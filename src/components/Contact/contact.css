@@ -70,7 +70,7 @@
 }
 
 .submitBtn {
-  background: white;
+  background:white;
   border: none;
   border-radius: 0.5rem;
   margin: 2rem;
@@ -89,12 +89,22 @@
   margin: 0 0.75rem;
 }
 
-@media screen and (max-width: 602px) {
+@media screen and (max-width:720px) {
   .contactPageTitle {
-    font-size: 3rem;
-    padding: 3rem 1rem;
+    font-size:3rem;
+    margin: right auto;;
+    padding:1rem;
     justify-content: center;
     align-items: center;
+    
+  }
+  .clientDesc{
+    font-size:medium;
+    font-weight: 200;
+    align-items: center;
+    padding: 2rem;
+    margin-right: 3rem;
+
   }
 
   .clientImgs {
@@ -102,13 +112,34 @@
     padding: 1rem;
     align-items: center;
     justify-content: center;
+    
   }
 
   .clientImg{
-    margin: auto;
-    padding: 2rem 0.5rem;
+    margin: 1px;
+    padding:1px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  
+   
+  }
+
+  .contactForm{
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    padding:1rem 2rem;
+    margin-right: auto;
+  }
+  .contactDesc {
+    font-size: smaller;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    display: flex;
+    border-radius: 2rem;
+   
   }
 }

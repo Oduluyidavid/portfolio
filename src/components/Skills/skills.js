@@ -11,7 +11,7 @@ const Skills = () => {
         <span className="skillDesc">
           I am a skilled and passionate frontend developer creating digital
           experiences that captivate, engage, and seamlessly connect with users.
-          As a developer I canvas is the web, and every line of code is a
+          As a developer what I canvas is the web, and every line of code is a
           brushstroke shaping the user's journey, also solving website
           applications
         </span>
@@ -19,10 +19,10 @@ const Skills = () => {
           <div className="skillBar">
             <img src={HCJR} alt="HCJR" className="skillBarImg" />
             <div className="skillBarText">
-              <h2>Html/Css/JavaScript/React</h2>
+              <h2>Html/Css/React</h2>
               <p>
-                The main purpose of this language used,is to solve issue
-                affecting websites and mobile applications
+                The main purpose of this language used is to solve issue
+                affecting <br/> websites and mobile applications.
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Skills = () => {
               <p>
                 Many modern APIs, especially in the context of web development,
                 are web APIs RESTful APIs adhere to the principles of REST and
-                are commonly used for web services
+                are commonly used for web services.
               </p>
             </div>
           </div>
