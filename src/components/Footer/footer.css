@@ -9,3 +9,14 @@
     font-size: medium;
     padding: 2rem 0.5rem;
 }
+@media screen and(max-width:720px) {
+    .footer {
+        font-size:medium;
+        font-weight: 100;
+    }
+
+    
+    
+
+}
+    
