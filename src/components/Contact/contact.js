@@ -17,10 +17,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_408pcgm",
-        "template_lgobctc",
+        "service_47xfsjb",
+        "template_2pwllsw",
         form.current,
-        "IaX_K9eE27hll44TG"
+        "IaX_K9eE27hll44TG",
       )
       .then(
         (result) => {
