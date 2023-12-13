@@ -10,10 +10,12 @@ const Intro = () => {
       <div className="introContent">
         <span className="hello">Hello,</span>
         <span className="introtext">
+          
           I'm <span className="introname">David</span>
           <br />
           FRONTEND DEVELOPER
         </span>
+
         <p className="intropara">
           I am a developer like the magician behind the curtains, making the web
           pages <br /> come to life also responsible for creating the visual
