@@ -11,8 +11,10 @@
 }
 @media screen and(max-width:720px) {
     .footer {
-        font-size:medium;
-        font-weight: 100;
+        font-size:small;
+        font-weight: 50;
+        justify-content: center;
+        margin: auto;
     }
 
     
